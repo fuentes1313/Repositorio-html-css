@@ -1,0 +1,35 @@
+/*Estilos  para colores*/
+
+.colores {
+    color: orangered;
+}
+
+/*Utilizando color hexadecimal traido de un sitio*/
+.color-hexadecimal {
+    color: #D6F9DD;
+}
+
+/*Aplicando color RGB*/
+.color-rgb {
+    color: rgb(100, 200, 0);
+}
+
+/*Aplicando color RGBA o capa de opacidad o transparencia el 4 valor 
+debe estar entre 0 y 1*/
+.color-rgba {
+    color: rgba(100, 128, 255, 0.85);
+}
+
+/*Fondos*/
+.fondo {
+    /*background-color: cornflowerblue;*/
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbcq7CNEVkNqSiyl7f6tSEYW8YbT6Vi7NU2g&s);
+    background-position: right bottom center;
+}
+
+/*Fondos internos*/
+.finterno {
+    /*background-color: cornflowerblue;*/
+    background-image: url(imagenes/photo.jpg);
+    background-position: right bottom center;
+}

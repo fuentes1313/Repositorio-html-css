@@ -1,0 +1,43 @@
+/*Aca aplico formato a la etiqueta, si no declaro class o id, todas las etiquetas del mismo tipo tomaran el mismo formato*/
+h1 {
+    color:red;
+}
+
+
+/*Estoy cambiando el formato de texto utilizando id de la etiqueta*/
+#p-encabezado2 {
+    color: blue;
+    font-size: 12pt;
+    font-style:initial;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*Estoy cambiando el formato de texto utilizando id de la etiqueta. inicia con #*/
+#encabezado2 {
+    color: green;
+    font-size: 18pt;
+    text-align: center;
+    font-style: oblique;
+}
+
+/* Estoy dando formtato a la class declarada, se inicia con el punto*/
+.p-encabezado1 {
+    color: brown;
+    font-size: 12pt;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Acá estoy dando formato a la class declarada*/
+.encabezado1 {
+    color: darkgoldenrod;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+
+/*APlicar con el mismo selector a varias etiquetas, class o id */
+.probarclass, h2, #probarid, h3 {
+    font-size: 13pt;
+    font: bold;
+    text-decoration: underline;
+}
